@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e9ecef;
+}
+
+.app-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+h1 {
+  color: #17a2b8;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.register-form label {
+  text-align: left;
+  font-weight: bold;
+}
+
+.register-form input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.register-form button {
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  background-color: #28a745;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.register-form button:hover {
+  background-color: #218838;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  text-align: left;
+  margin: -10px 0 10px;
+}

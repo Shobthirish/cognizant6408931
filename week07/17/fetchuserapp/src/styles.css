@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+.app-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.user-card {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  max-width: 300px;
+}
+
+.user-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+h1 {
+  color: #007bff;
+}
+
+h2 {
+  color: #333;
+}
+
+.error {
+  color: red;
+}

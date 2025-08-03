@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.app-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+h1 {
+  color: #007bff;
+}
+
+.complaint-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.complaint-form label {
+  text-align: left;
+  font-weight: bold;
+}
+
+.complaint-form input,
+.complaint-form textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.complaint-form button {
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  background-color: #28a745;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.complaint-form button:hover {
+  background-color: #218838;
+}

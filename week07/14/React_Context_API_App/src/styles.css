@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.app {
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.employee-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card.light {
+  background-color: #fff;
+  color: #000;
+}
+
+.card.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.toggle-btn {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.action-btn {
+  margin-top: 10px;
+  padding: 8px 16px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.action-btn.light {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.action-btn.dark {
+  background-color: #ff5722;
+  color: white;
+}
